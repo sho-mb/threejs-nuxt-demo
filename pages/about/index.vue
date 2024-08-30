@@ -3,7 +3,9 @@
     <TresCanvas window-size v-bind="gl" >
       <OrbitControls />
       <TresPerspectiveCamera />
-      <AnimatedDonnut color="orange" />
+      <AnimatedCube />
+      <ContactShadows />
+      <TresDirectionalLight :position="[0, 2, 4]" :intensity="1.2" cast-shadow />
     </TresCanvas>
   </div>
 </template>

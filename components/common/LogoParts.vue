@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="absolute top-12 left-12 z-10">
     <div class="text-5xl logo tracking-tighter">
       KISHO TAMURA
     </div>

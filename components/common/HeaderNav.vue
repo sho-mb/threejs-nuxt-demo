@@ -1,5 +1,5 @@
 <template>
-  <nav>
+  <nav class="absolute top-12 right-12 z-10">
     <ul class="text-sm flex gap-10">
       <li
         v-for="item in navItems"

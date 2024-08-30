@@ -8,6 +8,9 @@ export default defineNuxtConfig({
     '@nuxt/eslint',
     '@nuxtjs/google-fonts',
   ],
+  tres: {
+    glsl: true,
+  },
   eslint: {
     config: {
       stylistic: true,
@@ -18,5 +21,8 @@ export default defineNuxtConfig({
       Silkscreen: [400, 700],
       Saira: [100, 300, 400, 600, 800],
     },
+  },
+  app: {
+    pageTransition: { name: 'page', mode: 'out-in' },
   },
 })

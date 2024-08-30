@@ -1,7 +1,6 @@
 <template>
   <div>
-    <CommonLogoParts />
-    <CommonHeaderNav class="py-4" />
+    
   </div>
 </template>
 

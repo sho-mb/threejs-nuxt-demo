@@ -1,5 +1,5 @@
 <template>
-  <div class="p-12">
+  <div>
     <CommonHeaderMenu />
     <div class="h-full">
       <slot />
